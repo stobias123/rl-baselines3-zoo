@@ -3,6 +3,7 @@ import difflib
 import importlib
 import os
 import uuid
+import gym_robocode
 
 import gym
 import numpy as np
