@@ -26,7 +26,7 @@ Robocode-v0:
   vf_coef: 0.5
   ent_coef: 0.01
 
-Robocode-v2:
+Robocode-v2ignore:
   frame_stack: 4
   policy: 'CnnPolicy'
   n_envs: 8
@@ -329,7 +329,7 @@ MiniGrid-DoorKey-5x5-v0:
   clip_range: 0.2 # Clipping parameter, it can be a function
 
 # requires --gym-packages gym_minigrid
-MiniGrid-FourRooms-v0:
+Robocode-v2:
   normalize: true
   n_envs: 8
   n_timesteps: !!float 4e6
