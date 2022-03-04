@@ -16,7 +16,7 @@ atari:
 Robocode-v0:
   frame_stack: 4
   policy: 'CnnPolicy'
-  n_envs: 1
+  n_envs: 8
   n_steps: 128
   n_epochs: 4
   batch_size: 256
